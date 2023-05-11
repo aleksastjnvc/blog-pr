@@ -125,7 +125,13 @@ form {
 
 .brand-title {
    
-    margin: .5rem;
+    margin: .25rem;
+}
+
+.brand-title img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 #phone-contact,
@@ -148,11 +154,6 @@ form {
 .navbar-links li a:hover
 #arrow-down {
     color: white;
-}
-
-.brand-title img {
-    width: 50px;
-    height: 50px;
 }
 
 .navbar-links ul {
