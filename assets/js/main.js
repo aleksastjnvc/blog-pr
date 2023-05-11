@@ -13,7 +13,6 @@ dropdownMenu[0].addEventListener('mouseover', () => {
     dropdownMenu[0].style.opacity = '1';
     dropdownMenu[0].style.visibility = 'visible';
     categoryBtn.style.background = 'black';
-    categoryBtn.style.color = 'white';
    
 })
 
@@ -22,7 +21,5 @@ dropdownMenu[0].addEventListener('mouseleave', () => {
     dropdownMenu[0].style.opacity = '0';
     dropdownMenu[0].style.visibility = 'hidden';
     categoryBtn.style.background = 'whitesmoke';
-    categoryBtn.style.color = 'black';
-    
 
 })

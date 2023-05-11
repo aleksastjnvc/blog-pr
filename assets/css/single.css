@@ -4,7 +4,6 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -110,7 +109,7 @@ p {
 
 .main-content h2 {
     font-size: 36px;
-    color: red;
+    color: black;
 }
 
 h2{

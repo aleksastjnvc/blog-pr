@@ -57,8 +57,7 @@ function prblog_fonts_icons() {
   $ver = '1.0.0';
 
   //Enqueue font
-  wp_enqueue_style( 'mytheme-fonts', get_template_directory_uri() . 'assets/fonts/myfont.ttf', array(), $ver );
-
+  wp_enqueue_style( 'google-fonts', '<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">', $ver, false );
   // Enqueue icon font stylesheet
   wp_enqueue_style( 'mytheme-icons', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', array());
 }
