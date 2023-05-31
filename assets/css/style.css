@@ -583,6 +583,11 @@ form {
     font-size: 12px;
 }
 
+.gt_switcher_wrapper {
+    top: 80px !important;
+    position: absolute !important;
+}
+
 /* RESPONSIVE -------------------------------------------------------------------- */
 
 @media (max-width: 1024px) {
@@ -777,6 +782,10 @@ form {
     .img-container-archive img {
         width: 100%;
         height: auto;
+    }
+
+    .gt_switcher_wrapper {
+        margin: 0px;
     }
 
     

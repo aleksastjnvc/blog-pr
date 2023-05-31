@@ -8,6 +8,7 @@ get_header() ?>
     $args = array(
       'post_type' => 'post',
       'posts_per_page' => 9
+      
     );
     $query = new WP_Query($args);
     

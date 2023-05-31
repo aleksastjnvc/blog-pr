@@ -1,4 +1,6 @@
-<?php get_header() ?>
+<?php get_header()
+  /* Template Name: About Me */
+?>
 
 <div class="section-about">
   <div class="container-about">

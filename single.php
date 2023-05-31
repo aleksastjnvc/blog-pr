@@ -26,6 +26,35 @@
         <p><?php the_content() ?></p>
     </div>
 </div>
+ 
+
+<?php comment_form();
+
+    $comments_number = get_comments_number();
+        if($comments_number != 0) {
+            ?>
+
+            <div class="comments">
+                <h3 class="comments-heading">What people say</h3>
+                <ol class="all-comments">
+                    <?php
+
+                        $comments = get_comments(array(
+                            'post_id' => $post->ID,
+                            'status' => 'approve'
+                        ));
+
+                        wp_list_comments(array(
+                            'per_page' => 15
+                        ), $comments);
+                    ?>
+                </ol>
+            </div>
+
+
+            <?php
+        }
+?>
 
 <?php }
 wp_reset_postdata(); 

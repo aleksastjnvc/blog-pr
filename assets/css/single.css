@@ -152,7 +152,27 @@ h2{
     margin: 25px;
 }
 
+.gt_switcher_wrapper {
+    top: 80px !important;
+    position: absolute !important;
+}
 
+.comments-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.comment-author.vcard img {
+    height: 30px;
+    width: 30px;
+}
+
+.comment-content {
+    padding: 30px;
+    background-color: antiquewhite;
+}
 
 @media (max-width: 1024px) { 
     

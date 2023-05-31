@@ -123,3 +123,6 @@ function send_email() {
 
 add_action('wp_ajax_my_ajax_action', 'send_email');
 add_action('wp_ajax_nopriv_my_ajax_action', 'send_email');
+
+
+
