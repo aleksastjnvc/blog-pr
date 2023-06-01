@@ -2,6 +2,8 @@
   /* Template Name: About Me */
 ?>
 
+<title><?php the_title() ?></title>
+
 <div class="section-about">
   <div class="container-about">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pavle-aboutme.webp" alt="Image 1">

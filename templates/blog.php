@@ -2,6 +2,8 @@
 
 get_header() ?>
 
+<title><?php the_title() ?></title>
+
     <div class="container-blog">
         <div class="flex-row">
   <?php

@@ -165,13 +165,18 @@ h2{
 }
 
 .comment-author.vcard img {
-    height: 30px;
-    width: 30px;
+    height: 30px !important;
+    width: 30px !important;
 }
 
 .comment-content {
     padding: 30px;
     background-color: antiquewhite;
+}
+
+a.glink img {
+    height: 25px !important;
+    width: 25px !important;
 }
 
 @media (max-width: 1024px) { 

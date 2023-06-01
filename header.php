@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/PR.png" >
+
+    <title><?php the_title() ?></title>
     <?php wp_head() ?>
 </head>
 <body>
     
     <nav class="navbar">
-        <a href="<?php echo site_url('') ?>"><div class="brand-title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Pavle (1).png" alt="logo"></div></a>
+        <a href="<?php echo site_url('') ?>"><div class="brand-title"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/removed_background.png" alt="logo"></div></a>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
