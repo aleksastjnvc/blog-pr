@@ -103,7 +103,7 @@ function pr_send_email() {
   $website = $_POST["form_data"]["website"];
   $message = $_POST["form_data"]["message"];
 
-  $to = 'risticpavle2001@gmail.com'; 
+  $to = 'pavleristicblog@gmail.com'; 
   $subject = 'New message from ' . $name;
   $body = "Name: $name\nEmail: $email\nMessage:\n$message";
 

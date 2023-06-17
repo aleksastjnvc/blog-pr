@@ -12,27 +12,27 @@
 ?>
 
 
-<?php if ( is_category( '3' ) ) : ?>
+<?php if ( is_category( '7' ) ) : ?>
     <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/bussines-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
-<?php elseif (is_category('7') ) : ?>
+<?php elseif (is_category('11') ) : ?>
     <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/technology-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
-    <?php elseif (is_category('6') ) : ?>
+    <?php elseif (is_category('10') ) : ?>
     <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/sport-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
-    <?php elseif (is_category('4') ) : ?>
+    <?php elseif (is_category('8') ) : ?>
     <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/international-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
-    <?php elseif (is_category('8') ) : ?>
+    <?php elseif (is_category('12') ) : ?>
     <div class="archive-hero" style="background-image:url(http://pavleristic.com/wp-content/uploads/2023/06/travel-bannerjpg.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
