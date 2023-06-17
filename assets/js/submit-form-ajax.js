@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
         type: 'POST',
         url: `/wp-admin/admin-ajax.php`, // use the WordPress global ajaxurl variable
         data: {
-            action: 'my_ajax_action',
+            action: 'pr_send_email',
             form_data: formData
         },
         success: function(response) {

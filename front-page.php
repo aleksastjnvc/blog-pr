@@ -2,12 +2,12 @@
 
 <?php wp_head() ?>
 
+
 <?php
 
 $args = array (
     'post_type' => 'post',
-    'posts_per_page' => 2,
-    'cat' => '8',
+    'posts_per_page' => 3,
 );
 
 $posts_left = new WP_Query($args);
@@ -79,6 +79,8 @@ wp_reset_postdata();
 
 
 <?php get_template_part( 'template-parts/quote', 'front-page' ) ?>
+
+<?php get_template_part( 'template-parts/front-about', 'front-page' ) ?>
 
 <?php get_footer() ?>
 

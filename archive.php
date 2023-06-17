@@ -4,29 +4,36 @@
         echo '<h2>There are no posts for this category</h2>';
 } ?>
 
+<?php
+
+    $url = site_url();
+    
+
+?>
+
 
 <?php if ( is_category( '3' ) ) : ?>
-    <div class="archive-hero" style="background-image:url('http://pr-blog.local/wp-content/uploads/2023/05/bussines-banner.jpg');">
+    <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/bussines-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
 <?php elseif (is_category('7') ) : ?>
-    <div class="archive-hero" style="background-image:url('http://pr-blog.local/wp-content/uploads/2023/05/technology-banner.jpg');">
+    <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/technology-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
     <?php elseif (is_category('6') ) : ?>
-    <div class="archive-hero" style="background-image:url('http://pr-blog.local/wp-content/uploads/2023/05/sport-banner.jpg');">
+    <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/sport-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
     <?php elseif (is_category('4') ) : ?>
-    <div class="archive-hero" style="background-image:url('http://pr-blog.local/wp-content/uploads/2023/05/international-banner.jpg');">
+    <div class="archive-hero" style="background-image:url('http://pavleristic.com/wp-content/uploads/2023/06/international-banner.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 
     <?php elseif (is_category('8') ) : ?>
-    <div class="archive-hero" style="background-image:url('http://pr-blog.local/wp-content/uploads/2023/05/travel-bannerjpg.jpg');">
+    <div class="archive-hero" style="background-image:url(http://pavleristic.com/wp-content/uploads/2023/06/travel-bannerjpg.jpg');">
     <h2 id="archive-title-name"><?php the_archive_title() ?> </h2>
     </div>
 

@@ -2,7 +2,7 @@
 
 function prblog_styles_scripts() {
 
-    $ver = '1.0.0';
+    $ver = '1.0.1';
 
     wp_register_script('mainjs', get_template_directory_uri() . '/assets/js/main.js', 'NULL', $ver, true);
     wp_enqueue_script('mainjs');
@@ -96,14 +96,14 @@ add_action('wp_mail_failed', 'my_custom_wp_mail_failed');
 
 // AJAX ----------------------------------------------------
 
-function send_email() {
+function pr_send_email() {
 
   $name = $_POST["form_data"]["name"];
   $email = $_POST["form_data"]["email"];
   $website = $_POST["form_data"]["website"];
   $message = $_POST["form_data"]["message"];
 
-  $to = 'aleksicaa01@gmail.com'; // replace with your email address
+  $to = 'risticpavle2001@gmail.com'; 
   $subject = 'New message from ' . $name;
   $body = "Name: $name\nEmail: $email\nMessage:\n$message";
 
@@ -117,12 +117,12 @@ function send_email() {
   } else {
     echo 'error';
   }
-  wp_die(); // stop further execution of the PHP script
+  wp_die(); 
 }
 
 
-add_action('wp_ajax_my_ajax_action', 'send_email');
-add_action('wp_ajax_nopriv_my_ajax_action', 'send_email');
+add_action('wp_ajax_pr_send_email', 'pr_send_email');
+add_action('wp_ajax_nopriv_pr_send_email', 'pr_send_email');
 
 
 

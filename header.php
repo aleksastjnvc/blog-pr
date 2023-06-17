@@ -27,12 +27,12 @@
                     <div class="dropdown-menu">
                         
                         <ul class="menu-items">
-                            <li><a href="<?php echo get_category_link(3) ?>">Business</a></li>
-                            <li><a href="<?php echo get_category_link(7) ?>">Technology</a></li>
-                            <li><a href="<?php echo get_category_link(6) ?>">Sport</a></li>
-                            <li><a href="<?php echo get_category_link(4) ?>">International student in USA</a></li>
-                            <li><a href="<?php echo get_category_link(8) ?>">Travel</a></li>
-                            <li><a href="<?php echo get_category_link(9) ?>">Art</a></li>
+                            <li><a href="<?php echo get_category_link(7) ?>">Business</a></li>
+                            <li><a href="<?php echo get_category_link(11) ?>">Technology</a></li>
+                            <li><a href="<?php echo get_category_link(10) ?>">Sport</a></li>
+                            <li><a href="<?php echo get_category_link(8) ?>">International student in USA</a></li>
+                            <li><a href="<?php echo get_category_link(12) ?>">Travel</a></li>
+                            <li><a href="<?php echo get_category_link(14) ?>">Art</a></li>
                         </ul>
                         
                     </div>
